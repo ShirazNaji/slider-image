@@ -1,0 +1,113 @@
+
+////////////////////////////////////////////////////////// 1 
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma , Arial;
+  
+}
+
+
+
+.block{
+    
+    min-height: 1200px;
+    background-color: #EEE;
+    margin-bottom: 20px;
+    padding: 60px 0;
+    text-align: center;
+    
+    
+    
+}
+
+
+h2{
+    font-family: cursive;
+}
+
+
+
+
+
+.galary{
+    
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 3px;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+.galary img{
+    max-width: 100%;
+    overflow: hidden;
+      height: 551px;
+     transition: all .40s ease-in-out 4s;
+    
+}
+
+.galary .master-img{
+    height: 551px;
+    overflow: hidden;
+   position: relative;
+   
+}
+
+.galary .master-img i{
+    padding: 10px 5px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 2;
+
+   
+} 
+
+.galary .master-img .fa-chevron-left{left: 0;}
+.galary .master-img .fa-chevron-right{right: 0;}
+
+
+.galary .thumbnails img:last-child {
+    
+    margin-right: 0px !important;
+    
+}
+
+.galary .thumbnails img:first-child {
+    
+    margin-left: 0 !important;
+    
+}
+
+.galary .thumbnails{
+    overflow: hidden;
+     border: 1px solid black;
+    margin: 0 0;
+    padding:  0 0;
+}
+
+.galary .thumbnails img {
+    height: 200px;
+     border: 1px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .40s ease-in-out ;
+    opacity: .4;
+    
+}
+
+.galary .thumbnails img.active{
+    
+     border: 2px solid black;
+    opacity: 1;
+    
+}
+
